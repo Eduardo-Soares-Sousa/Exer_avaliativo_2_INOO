@@ -1,0 +1,69 @@
+Enunciado{
+    Implemente o jogo "pedra, papel e tesoura"
+
+    Deve ser implementada uma classe "Coisa" que será uma abstração de (classe abstrata) de Papel, Pedra e Tesoura. 
+    A classe jogador instanciará um objetos das classes especializadas de Coisa, que será "colocadas à prova".
+
+    Na classe Jogo deve ser implementar as seguintes possibilidades:
+    - Dois jogadores automáticos: São instanciados pois jogados virtuais que escolhem qual "Coisa" irão instanciar.
+
+    - Humano x Computador: instanciado um jogador humano, esse seleciona qual Coisa instanciar e cria-se um jogador virtual e este, aleatoriamente, define qual Coisa é instanciada.
+
+    - Permitir os vários "confrontos". Pode-se escolher o confronto unitário ou melhor de três confrontos. O sistema apresenta o nome do jogador vencedor.
+
+
+    Conceitos obrigatorios: Orientação a objetos, encapsulamento, métodos de acesso, herança, polimorfismo, sobrecarga.
+}
+
+
+Estratégia:
+- Classe Coisa é abstrata obrigatoriamente: Public abstract class Coisa{...}
+- Classes "Papel, Pedra e Tesoura" serão extensões de Coisa: Public "nome da classe" extends Coisa{...}
+- Classe Jogador instanciará os jogadores (Humano e Computador) *ele não é uma extensão de coisa*: Public class Jogador{...}
+    Então{
+        Ele será uma classe especifíca para os jogadores
+        *atribuir atributos e métodos dos jogadores*
+    }
+- Classe Jogo *será o main* deve instanciar os jogadores (Humano e Computador) *isso será feito pela classe Jogador* e escolherão as opções de jogada: Papel, Pedra e Tesoura
+    Jogador Humano: escolhe o que ele irá jogar: Papel, Pedra ou Tesoura.
+    Jogador Computador: a escolha deve ser aleatória.
+    Escolha de confronto: 1 Round por vez.
+    *Ao final o programa apresenta o nome do vecendor (Humano ou Computador)*.
+
+
+
+Nas classes:
+- Public abstract class Coisa{
+
+    *método abstrato obrigatório*
+}
+
+Classes Pedra, Papel, Tesoura:
+Public "nome da classe" extends Coisa{
+    
+    *sobrescrita do método abstrato*
+}
+
+Public class Jogador{
+
+    *declaração de atributos* (nome e opção)
+
+    *construtor* (nome) (opção)
+
+    *get*
+
+    OBS: ***sets não serão necessários, pois não há o que e nem o porque alterar um atributo***
+}
+
+public class Jogo {
+    public static void main(String[] args) {
+        /*
+         *  Instanciar objetos (jogadores) *Faze-los escolher entre as opções Pedra, Papel, Tesoura*
+         *  Ler opção do Humano
+         *  Identificar qual a escolha do Computador
+         *  Apresentar o que cada jogador escolheu
+         *  Verificar quem ganhou
+         *  Apresentar o vencedor
+        */
+    }
+}
