@@ -9,5 +9,7 @@ public abstract class Coisa {
     //------------------------------------
 
     //Declaração do método abstrato: 
-    protected abstract int result(Coisa opcao);  
+    protected abstract int result(Coisa opcao);
+    
+    protected abstract String getNomeOpcao();
 }

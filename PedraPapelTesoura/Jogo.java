@@ -16,7 +16,7 @@ public class Jogo {
         System.out.println("1 - Pedra");
         System.out.println("2 - Papel");
         System.out.println("3 - Tesoura");
-        System.out.println("Opção desejada: ");
+        System.out.print("Opção desejada: ");
         int escolha = lerOpcao.nextInt();
         
         //Saber a escolha do Humano
