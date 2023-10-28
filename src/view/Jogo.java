@@ -53,6 +53,7 @@ public class Jogo {
         System.out.println(player1.getNamePlayer() + " escolheu " + saberOpcaoEscolhida.getNomeOpcao());
         System.out.println(player2.getNamePlayer() + " escolheu " + escolhidaComputador.getNomeOpcao());
 
+        //verificação do resultado
         if (resultado > 0) {
             System.out.println(player1.getNamePlayer() + " venceu!");
             System.out.println("PARABÉNS PELA VITÓRIA");
