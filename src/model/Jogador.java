@@ -17,5 +17,6 @@ public class Jogador {
     public Coisa getEscolha(){
         return escolha;
     }   
+
     
 }

@@ -9,6 +9,7 @@ class Papel extends Coisa {
         }else{
             return 0;
         }
+        
     }
 
     public String getNomeOpcao() {

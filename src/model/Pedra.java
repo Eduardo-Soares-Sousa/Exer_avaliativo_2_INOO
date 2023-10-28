@@ -9,6 +9,7 @@ class Pedra extends Coisa {
         }else{
             return 0;
         }
+        
     }
 
     public String getNomeOpcao(){
