@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class Jogo {
     public static void main(String[] args) {
-        //declaração do Scanner e instacia de objetos
+        //declaração do Scanner e instâcia de objetos
         Scanner lerOpcao = new Scanner(System.in);
 
         Jogador player1 = new Jogador("Humano");
