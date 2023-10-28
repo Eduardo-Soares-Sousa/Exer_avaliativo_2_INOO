@@ -8,6 +8,5 @@ public abstract class Coisa {
 
     //Declaração do método abstrato obrigatório (abstract class): 
     protected abstract int result(Coisa opcao);
-    
     protected abstract String getNomeOpcao();
 }
