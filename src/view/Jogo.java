@@ -49,7 +49,6 @@ public class Jogo {
         player2.jogador(escolhidaComputador);
 
         int resultado = player1.getEscolha().result(player2.getEscolha());
-
         System.out.println(player1.getNamePlayer() + " escolheu " + saberOpcaoEscolhida.getNomeOpcao());
         System.out.println(player2.getNamePlayer() + " escolheu " + escolhidaComputador.getNomeOpcao());
 
