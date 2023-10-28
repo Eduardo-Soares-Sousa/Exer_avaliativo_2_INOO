@@ -14,4 +14,5 @@ class Tesoura extends Coisa {
     public String getNomeOpcao() {
         return "Tesoura";
     }
+    
 }

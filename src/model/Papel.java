@@ -14,4 +14,5 @@ class Papel extends Coisa {
     public String getNomeOpcao() {
         return "Papel";
     }
+    
 }

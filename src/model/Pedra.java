@@ -14,4 +14,5 @@ class Pedra extends Coisa {
     public String getNomeOpcao(){
         return "Pedra";
     }
+    
 }
